@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="" />
+    <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Scorpio.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Scorpio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/acf-export-General.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/advanced-custom-fields-pro.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/advanced-custom-fields-pro_serial-key.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/png/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/sample_products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/test_posts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/wp-smush-pro.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/wpmu-dev-dashboard.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/default_import/wpmu-dev-dashboard_login.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/2400px-Tony-Evans-Photo-Viva-Physio-Feb-2017-9495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/961928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/961930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Group 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/IMG_5380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Rectangle 214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Rectangle 233.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Rectangle 235.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Rectangle 237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/Rectangle 238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/home-hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/team1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jpg/yellow-mung-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Bratara1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Bratara2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Group 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Group 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Group 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Group 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Layer 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Layer 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Layer 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/Layer_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/grab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/grabbing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/kisspng-sydney-the-daily-telegraph-the-australian-news-cor-daily-5b0dd6f8ec46e2.3681503115276336569678.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/smartlogo-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/png/vc-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Group 184.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Group 261.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Group 262.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Group 263.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Path 239.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Path 245.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/Path 247.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/decoration-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/decoration-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/decoration-service.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/decoration-team.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/normal-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/play-button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/svg/white-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/__single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_inners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_inners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +86,12 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TEuvUeNYpQ2yqlac0ZmZDspFhE" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -26,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Work\Desktop\Projects\Elephant-GIT\public\images\png" />
       <recent name="C:\Users\Work\Desktop\Projects\Elephant\pages\components" />
     </key>
   </component>
@@ -52,10 +130,22 @@
       <option name="presentableId" value="Default" />
       <updated>1573037806403</updated>
       <workItem from="1573037807574" duration="6207000" />
+      <workItem from="1573046159089" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

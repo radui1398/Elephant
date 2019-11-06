@@ -3,8 +3,8 @@
 include 'pages/components/page-head.php';
 include 'controllers/Header.php';
 
-/*
- * Options:
+/**
+ * Optiuni Header:
  * + SetHeaderColor($color);
  * + SetBodyColor($color);
  * + SetHeaderClass($class);
@@ -14,8 +14,12 @@ include 'controllers/Header.php';
  */
 $header = new Header();
 
+# Aici verificam pagina. Daca nu este 'front page' atunci adaugam clasa 'inner' pentru 'page' si 'header'.
+
 if(!is_front_page()) {
     $header->setHeaderClass('inner-header');
     $header->setBodyClass('inner-page');
 }
+
+# Generam Header-ul
 $header->generate();

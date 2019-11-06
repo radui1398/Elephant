@@ -8,6 +8,15 @@
  * Descriere: Adaugare field-uri ACF direct din PHP.
  */
 
+
+
+////////////////////////////////////////////////////
+
+//$homeACF =  new Scorpio('Options','options','Edit Content','fields-home.php');
+
+////////////////////////////////////////////////////
+
+
 class Scorpio
 {
     private $fields = array();
