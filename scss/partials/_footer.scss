@@ -1,0 +1,93 @@
+footer{
+  background-color: white;
+  padding: 85px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1{
+    text-transform: uppercase;
+    color: $vivaBlue;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+  }
+  .cta-button{
+    @include fz13px;
+    background-color: #49C5B1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+    &:hover{
+      background-color: $vivaLightBlue;
+    }
+  }
+  nav{
+    margin-bottom: 60px;
+
+    ul{
+      margin: -20px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        padding: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        &:after{
+          display: block;
+          right:0;
+          position: absolute;
+          content: "";
+          height: 4px;
+          width: 4px;
+          background-color: $vivaAsfalt;
+          border-radius: 50%;
+        }
+        &:last-of-type{
+          &:after{
+            display: none;
+          }
+        }
+        a{
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          color: $vivaAsfalt;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .social-links{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    a{
+      margin: 0 20px;
+      color: $vivaAsfalt;
+      width: 30px;
+      height: 30px;
+      line-height: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid $vivaAsfalt;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      &:hover{
+        border-radius: 0;
+      }
+    }
+  }
+  .copyright{
+    color: $vivaAsfalt;
+    @include fz13px;
+    letter-spacing: 2.5px;
+    margin-bottom: 0;
+  }
+}
