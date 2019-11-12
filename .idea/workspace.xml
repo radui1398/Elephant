@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +67,10 @@
       <updated>1573037806403</updated>
       <workItem from="1573037807574" duration="6207000" />
       <workItem from="1573046159089" duration="2254000" />
+      <workItem from="1573472665566" duration="574000" />
+      <workItem from="1573479340351" duration="50000" />
+      <workItem from="1573479818110" duration="661000" />
+      <workItem from="1573543408308" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -72,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

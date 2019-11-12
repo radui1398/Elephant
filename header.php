@@ -1,7 +1,6 @@
 <?php
 
 include 'pages/components/page-head.php';
-include 'controllers/Header.php';
 
 /**
  * Optiuni Header:

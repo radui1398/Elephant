@@ -12,7 +12,7 @@
  *      Se ofera fisierul css din folderul fonts ce contine toate fonturile folosite.
  *      Fisierul trebuie sa fie adaugat in public/fonts.
  * + addJS - Adauga un nou fisier JS
- *      Exemplu: $theme->addFont('slick')
+ *      Exemplu: $theme->addJS('slick')
  *      Se ofera fisierul js fara extensie.
  *      Fisierul trebuie sa fie adaugat in public/js.
  * + addPlugin - Adauga un nou plugin

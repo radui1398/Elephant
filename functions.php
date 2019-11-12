@@ -28,7 +28,7 @@ $theme->setWoocommerce(false);
 #$theme->setSidebar('Article Sidebar');
 #$theme->customThumbnailSize(1400,475,true);
 
-#$theme->imageSize('homepage-gallery', 222, 192, true);
+$theme->imageSize('homepage-gallery', 222, 192, true);
 
 # Paginile de optiuni ACF
 $theme->addControlPage('General','General');

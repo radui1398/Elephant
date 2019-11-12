@@ -91,19 +91,24 @@ function getImage($img)
  */
 function createLink($object, $class = null)
 {
-    $link = '<a href="';
-    $link .= esc_url($object['url']);
-    $link .= '" target="';
-    $link .= $object['target'] ? $object['target'] : '_self';
-    $link .= '" class="';
-    if ($class) {
-        if (!is_array($class)) {
-            $link .= $class;
-        } else {
-            foreach ($class as $cls) {
-                $link .= $cls . ' ';
+    if(!empty($link)) {
+        $link = '<a href="';
+        $link .= esc_url($object['url']);
+        $link .= '" target="';
+        $link .= $object['target'] ? $object['target'] : '_self';
+        $link .= '" class="';
+        if ($class) {
+            if (!is_array($class)) {
+                $link .= $class;
+            } else {
+                foreach ($class as $cls) {
+                    $link .= $cls . ' ';
+                }
             }
         }
+    }
+    else{
+        $link = '';
     }
 
     $link .= '">';
