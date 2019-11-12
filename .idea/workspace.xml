@@ -3,111 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Theme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/blog-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/blog-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/page-head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/page-head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/page-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/page-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/page-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/page-utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/single-page-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/single-page-content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/acf-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/acf-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/aos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fontawesome-all.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fontawesome-all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hc-navmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/hc-navmenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hover-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/hover-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_l_b_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_l_b_c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_l_t_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_l_t_c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_r_b_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_r_b_c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_r_t_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_r_t_c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_r_t_c_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_r_t_c_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/6_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/6_top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/iesprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/iesprites.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/style_dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/style_dev.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/u-center.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/u-center.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/u-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/u-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/iealert/u-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/iealert/u-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/jquery.fancybox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/jquery.mmenu.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/jquery.mmenu.all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/selectric.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/selectric.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/slick-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/slick.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/thumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/thumbs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/woocommerce-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/woocommerce-custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/slick.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/slick.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/slick.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/slick.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gif/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/gif/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_loading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_nav_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_nav_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_nav_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_nav_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_e.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_e.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_ne.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_ne.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_nw.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_nw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_se.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_se.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_sw.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_sw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_shadow_w.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_shadow_w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_title_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_title_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_title_main.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_title_main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_title_over.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_title_over.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancy_title_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancy_title_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancybox-x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancybox-x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancybox-y.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancybox-y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lib/jquery.fancybox/fancybox.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lib/jquery.fancybox/fancybox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/png/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/png/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/aos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/hc-navmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/hc-navmenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/iealert.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/iealert.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.fancybox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.fancybox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.mmenu.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.mmenu.all.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.selectric.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.selectric.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.selectric.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.selectric.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/modernizr_2.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/modernizr_2.8.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/slick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/thumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/thumbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +65,7 @@
       <workItem from="1573479340351" duration="50000" />
       <workItem from="1573479818110" duration="661000" />
       <workItem from="1573543408308" duration="1288000" />
-      <workItem from="1573548364148" duration="1161000" />
+      <workItem from="1573548364148" duration="2001000" />
     </task>
     <servers />
   </component>
