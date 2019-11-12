@@ -32,7 +32,7 @@ class Enqueue
     private $jsFiles = array();
     private $fontFiles = array();
     private $cssCFiles = array();
-    private $jsCFiels = array();
+    private $jsCFiles = array();
     private $fontCFiles = array();
 
     public function init()
@@ -77,7 +77,7 @@ class Enqueue
         wp_enqueue_script('jquery');
 
         # CDN Fonts
-        foreach ($this->fontFiles as $font) {
+        foreach ($this->fontCFiles as $font) {
             $fontName = substr(md5(microtime()),rand(0,26),10);
             wp_enqueue_style($fontName . '-font', $font);
         }
@@ -88,7 +88,7 @@ class Enqueue
         }
 
         # CDN CSS
-        foreach ($this->cssFiles as $cssFile) {
+        foreach ($this->cssCFiles as $cssFile) {
             $cssFileName = substr(md5(microtime()),rand(0,26),10);
             wp_enqueue_style($cssFileName . '-css', $cssFile);
         }
@@ -99,7 +99,7 @@ class Enqueue
         }
 
         # JS CDN
-        foreach ($this->jsFiles as $jsFile) {
+        foreach ($this->jsCFiles as $jsFile) {
             $jsFileName = substr(md5(microtime()),rand(0,26),10);
             wp_register_script($jsFileName . '-script', $jsFile[0], '', '', $jsFile[1]);
             wp_enqueue_script($jsFileName . '-script', array('jquery'));

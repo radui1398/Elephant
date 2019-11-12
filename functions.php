@@ -14,6 +14,7 @@ $plugins->addCSS('slick-theme');
 $plugins->addCSS('hover-min');
 $plugins->addPlugin('jquery.fancybox.min');
 $plugins->addPlugin('thumbs');
+$plugins->addCSS('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',true);
 $plugins->init();
 
 

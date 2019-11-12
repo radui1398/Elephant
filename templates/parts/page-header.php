@@ -4,7 +4,7 @@
         <a href="<?=home_url()?>" title="Go Home">
             Logo
         </a>
-    
+
 
         <?php
         global $headerMenu;
