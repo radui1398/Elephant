@@ -5,7 +5,7 @@
     -   controllers
     -   framework 
     -   pages
-        + components
+        + parts
     -   assets
         +   css
         +   fonts
@@ -15,7 +15,7 @@
 
 ### Sfaturi utilizare:
 
-    - Modularizarea este cheia. Elementele comune pot fi adaugate in folderul components.
+    - Modularizarea este cheia. Elementele comune pot fi adaugate in folderul parts.
     - Imaginile grupate dupa extensie in assets.
     - Setarile de wordpress extra vor fi adaugate la sfarsitul fisierului config.php 
 
@@ -24,7 +24,34 @@
     + Templetizare Gallery
     + Generare Meniu
     + Control rapid al temei
-
+   
+### Ce functii poti folosi usor si rapid?
+    + getImage('path') - path va fi calea catre imagine pornind din folderul images
+        Ex: getImage('png/logo.png');
+        Returneaza: String (URL)
+        
+        
+    + _f(field,options) - field va fi numele field-ului iar options argumentul
+        ce defineste pagina de optiuni/id-ul.
+        Ex: _f('hero_title');
+            _f('hero_title',1); // scurtatura pentru _f('hero_title','options')
+            _f('hero_title,$postID);
+        Returneaza: valoare/array (depinde de field)
+        
+        
+    + phoneNumber(tel) - tel va fi numarul de telefon. Functia curata numarul de telefon
+        de caracterele invalide.
+        Returneaza: String
+        
+        
+    + public_dir() - Functie pentru preluarea folder-ului assets.
+        Ex: include public_dir() . '/ceva.extensie';
+        Returneaza: String (Path-ul catre folder-ul assets fara '/' la urma)
+        
+        
+    +  yoastBreadcrumb() - Functie pentru afisarea breadcrumb-ului yoast.
+        Necesita Yoast instalat.
+        Afiseaza: Breadcrumbs.
 ### Repeater:
     /**
      * Clasa Repeater este utilizata pentru a simplifica folosirea Repeater-ului din ACF.
