@@ -463,3 +463,7 @@
         return $navigation;
     }
 
+
+## TODO:
++   Adaugare debug mode
++   Terminare Scorpio
