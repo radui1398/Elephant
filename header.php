@@ -1,6 +1,6 @@
 <?php
 
-include 'pages/components/page-head.php';
+include 'templates/parts/page-head.php';
 
 /**
  * Optiuni Header:

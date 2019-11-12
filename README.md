@@ -6,7 +6,7 @@
     -   framework 
     -   pages
         + components
-    -   public
+    -   assets
         +   css
         +   fonts
         +   images
@@ -16,7 +16,7 @@
 ### Sfaturi utilizare:
 
     - Modularizarea este cheia. Elementele comune pot fi adaugate in folderul components.
-    - Imaginile grupate dupa extensie in public.
+    - Imaginile grupate dupa extensie in assets.
     - Setarile de wordpress extra vor fi adaugate la sfarsitul fisierului config.php 
 
 ### Functii interesante:
@@ -206,7 +206,7 @@
      */
     function getImage($img)
     {
-        return get_template_directory_uri() . "/public/images/" . $img;
+        return get_template_directory_uri() . "/assets/images/" . $img;
     }
     
     
@@ -328,7 +328,7 @@
      */
     function public_dir()
     {
-        return get_template_directory_uri() . '/public';
+        return get_template_directory_uri() . '/assets';
     }
     
     

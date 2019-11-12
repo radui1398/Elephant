@@ -7828,7 +7828,7 @@ input[type=submit].striped:hover {
 .page.home .sections-image .section-with-image:nth-child(even) .content .decoration {
   right: unset;
   left: -41%;
-  background-image: url("public/images/svg/decoration-left.svg");
+  background-image: url("assets/images/svg/decoration-left.svg");
 }
 .page.home .sections-image .section-with-image:nth-child(even) .image {
   order: 1;
@@ -7855,7 +7855,7 @@ input[type=submit].striped:hover {
   height: 100%;
   width: 100%;
   right: -82%;
-  background-image: url("public/images/svg/decoration-right.svg");
+  background-image: url("assets/images/svg/decoration-right.svg");
   background-repeat: no-repeat;
 }
 .page.home .sections-image .section-with-image .content .header {
@@ -8013,7 +8013,7 @@ input[type=submit].striped:hover {
 .page.home .newsletter-section {
   height: 460px;
   width: 100%;
-  background-image: url(public/images/png/Bratara2.png), url(public/images/png/Bratara1.png);
+  background-image: url(assets/images/png/Bratara2.png), url(assets/images/png/Bratara1.png);
   background-position: 93% bottom, 7% center;
   background-repeat: no-repeat, no-repeat;
   background-size: 275px, 220px;
@@ -8069,7 +8069,7 @@ input[type=submit].striped:hover {
   padding-left: 80px;
   display: flex;
   align-items: center;
-  background: white url(public/images/svg/user.svg) no-repeat scroll 30px center;
+  background: white url(assets/images/svg/user.svg) no-repeat scroll 30px center;
   text-transform: unset;
   color: #003B5C;
   letter-spacing: 1px;
@@ -8254,7 +8254,7 @@ body.inner-page .page h1.page-title {
   margin: -90px 15px 50px;
   background-color: #003B5C;
   padding: 20px;
-  background-image: url("public/images/svg/decoration-team.svg");
+  background-image: url("assets/images/svg/decoration-team.svg");
   background-repeat: no-repeat;
   background-position: 100% 77%;
   transition: all 0.3s ease-in-out;

@@ -191,7 +191,7 @@ class Theme
         if (isset($_GET['activated']) && is_admin()) {
 
             $new_page_title = 'Homepage';
-            $new_page_template = 'pages/page-home.php';
+            $new_page_template = 'templates/page-home.php';
 
             $page_check = get_page_by_title($new_page_title);
             $new_page = array(

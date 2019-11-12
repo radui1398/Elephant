@@ -76,7 +76,7 @@ function copyright($year = 'auto')
  */
 function getImage($img)
 {
-    return get_template_directory_uri() . "/public/images/" . $img;
+    return get_template_directory_uri() . "/assets/images/" . $img;
 }
 
 
@@ -203,7 +203,7 @@ function shareNetwork($network, $id)
  */
 function public_dir()
 {
-    return get_template_directory_uri() . '/public';
+    return get_template_directory_uri() . '/assets';
 }
 
 

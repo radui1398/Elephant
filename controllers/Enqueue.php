@@ -6,15 +6,15 @@
  * + addCSS - Adauga un nou fisier CSS
  *      Exemplu: $theme->addCSS('slick')
  *      Se ofera doar numele fisierului, fara extensie.
- *      Fisierul trebuie sa fie adaugat in public/css
+ *      Fisierul trebuie sa fie adaugat in assets/css
  * + addFont - Adauga lista de fonturi
  *      Exemplu: $theme->addFont('font.css')
  *      Se ofera fisierul css din folderul fonts ce contine toate fonturile folosite.
- *      Fisierul trebuie sa fie adaugat in public/fonts.
+ *      Fisierul trebuie sa fie adaugat in assets/fonts.
  * + addJS - Adauga un nou fisier JS
  *      Exemplu: $theme->addJS('slick')
  *      Se ofera fisierul js fara extensie.
- *      Fisierul trebuie sa fie adaugat in public/js.
+ *      Fisierul trebuie sa fie adaugat in assets/js.
  * + addPlugin - Adauga un nou plugin
  *      Exemplu: $theme->addPlugin('slick')
  *      Se ofera nume plugin-ului. Metoda va cauta in folderele js/css dupa slick.js/slick.css si le va adauga.

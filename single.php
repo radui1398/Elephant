@@ -1,7 +1,7 @@
 <?php
 defined('ABSPATH') or die('Direct access is forbidden!');
 
-include('pages/components/page-utils.php');
+include('templates/parts/page-utils.php');
 get_header();
 $postID = get_the_ID();
 ?>
