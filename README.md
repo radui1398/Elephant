@@ -1,6 +1,6 @@
 # Elephant - Un framework nu chiar atat de mare
 
-#####$ Updates
+##### $ Updates
     + Adaugare CDN Enqueue - Fisier Editat: controllers/Enqueue.php
     + Adaugare Versiune Enqueue - Fisier Editat: controllers/Enqueue.php
     + Adaugare Debug Mode (Afisare Erori PHP) - Fisier Editat: controllers/Theme.php
