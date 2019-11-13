@@ -15,7 +15,8 @@ $plugins->addCSS('hover-min');
 $plugins->addPlugin('jquery.fancybox.min');
 $plugins->addPlugin('thumbs');
 $plugins->addCSS('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',true);
-//$plugins->setVersion('random');
+$plugins->addJS('path',false,true);
+$plugins->setVersion('1.4');
 $plugins->init();
 
 

@@ -70,17 +70,17 @@ class Enqueue
             array_push($this->fontFiles, $file);
     }
 
-    public function addJS($file, $footer = false, $CDN = false)
+    public function addJS($file, $header = false, $CDN = false)
     {
         if($CDN)
-            array_push($this->jsCFiels,array($file,$footer));
+            array_push($this->jsCFiles,array($file,$header));
         else
-            array_push($this->jsFiles, array($file, $footer));
+            array_push($this->jsFiles, array($file, $header));
     }
 
-    public function addPlugin($plugin, $footer = false)
+    public function addPlugin($plugin, $header = false)
     {
-        array_push($this->jsFiles, array($plugin, $footer));
+        array_push($this->jsFiles, array($plugin, $header));
         array_push($this->cssFiles, $plugin);
     }
 
