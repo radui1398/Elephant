@@ -23,6 +23,12 @@
  * + addPlugin - Adauga un nou plugin
  *      Exemplu: $theme->addPlugin('slick')
  *      Se ofera nume plugin-ului. Metoda va cauta in folderele js/css dupa slick.js/slick.css si le va adauga.
+ * + setVersion - Seteaza versiunea pentru plugins/scripts/fonts.
+ *      Exemplu:
+ *      $theme->setVersion('random') - la fiecare accesare a site-ului versiunea va fi diferita
+ *      $theme->setVersion('1.1') - Versiunea va fi setata la 1.1
+ *      Default - este setata versiunea wp
+ *
  */
 
 
@@ -34,10 +40,18 @@ class Enqueue
     private $cssCFiles = array();
     private $jsCFiles = array();
     private $fontCFiles = array();
+    private $cache = false;
 
     public function init()
     {
         add_action('wp_enqueue_scripts', array($this, 'enqueue_files'));
+    }
+
+    public function setVersion($cache){
+        if($cache == 'random')
+            $this->cache = date('YmdHGis');
+        else
+            $this->cache = $cache;
     }
 
     public function addCSS($file, $CDN = false)
@@ -78,47 +92,48 @@ class Enqueue
 
         # CDN Fonts
         foreach ($this->fontCFiles as $font) {
+
             $fontName = substr(md5(microtime()),rand(0,26),10);
-            wp_enqueue_style($fontName . '-font', $font);
+            wp_enqueue_style($fontName . '-font', $font, false, $this->cache);
         }
 
         # Fonts
         foreach ($this->fontFiles as $font) {
-            wp_enqueue_style(slugify($font) . '-font', public_dir() . '/fonts/' . $font);
+            wp_enqueue_style(slugify($font) . '-font', public_dir() . '/fonts/' . $font, false, $this->cache);
         }
 
         # CDN CSS
         foreach ($this->cssCFiles as $cssFile) {
             $cssFileName = substr(md5(microtime()),rand(0,26),10);
-            wp_enqueue_style($cssFileName . '-css', $cssFile);
+            wp_enqueue_style($cssFileName . '-css', $cssFile,false, $this->cache);
         }
 
         # CSS
         foreach ($this->cssFiles as $cssFile) {
-            wp_enqueue_style(slugify($cssFile) . '-css', public_dir() . '/css/' . $cssFile . '.css');
+            wp_enqueue_style(slugify($cssFile) . '-css', public_dir() . '/css/' . $cssFile . '.css', false, $this->cache);
         }
 
         # JS CDN
         foreach ($this->jsCFiles as $jsFile) {
             $jsFileName = substr(md5(microtime()),rand(0,26),10);
-            wp_register_script($jsFileName . '-script', $jsFile[0], '', '', $jsFile[1]);
+            wp_register_script($jsFileName . '-script', $jsFile[0], '', $this->cache, $jsFile[1]);
             wp_enqueue_script($jsFileName . '-script', array('jquery'));
         }
 
         # JS
         foreach ($this->jsFiles as $jsFile) {
-            wp_register_script(slugify($jsFile[0]) . '-script', public_dir() . '/js/' . $jsFile[0] . '.js', '', '', $jsFile[1]);
+            wp_register_script(slugify($jsFile[0]) . '-script', public_dir() . '/js/' . $jsFile[0] . '.js', '', $this->cache, $jsFile[1]);
             wp_enqueue_script(slugify($jsFile[0]) . '-script', array('jquery'));
         }
 
 
 
         # Main JavaScript File
-        wp_register_script('scripts', public_dir() . '/js/script.js', '', false, true);
+        wp_register_script('scripts', public_dir() . '/js/script.js', '', $this->cache, true);
         wp_enqueue_script('scripts', array('jquery'));
 
         # Loads our main stylesheet.
-        wp_enqueue_style('site-style', get_stylesheet_uri(), false, '');
+        wp_enqueue_style('site-style', get_stylesheet_uri(), false, $this->cache);
     }
 }
 
