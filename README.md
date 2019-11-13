@@ -1,5 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
+#####$ Updates
+    + Adaugare CDN Enqueue - Fisier Editat: controllers/Enqueue.php
+    + Adaugare Versiune Enqueue - Fisier Editat: controllers/Enqueue.php
+    + Adaugare Debug Mode - Fisier Editat: controllers/Theme.php
+
 ### Structura foldere:
 
     -   controllers
@@ -151,6 +156,7 @@
      *
      * imageSize($name,$width,$height,$crop = false) - Adauga o noua dimensiune pentru imagine.
      * addControlPage($pageTitle,$menu_title) - Adauga o noua pagina de optiuni ACF.
+     * enableDebug() - Afiseaza toate erorile PHP
      */
 
 ## Functii utile

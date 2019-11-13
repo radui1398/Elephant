@@ -28,6 +28,7 @@
  *
  * imageSize($name,$width,$height,$crop = false) - Adauga o noua dimensiune pentru imagine.
  * addControlPage($pageTitle,$menu_title) - Adauga o noua pagina de optiuni ACF.
+ * enableDebug() - Afiseaza toate erorile PHP
  */
 
 class Theme
@@ -257,5 +258,10 @@ class Theme
         array_push($this->acfPages,$page);
     }
 
+    public function enableDebug(){
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+    }
 }
 
