@@ -18,6 +18,8 @@ require_once TEMPLATEPATH . '/controllers/Header.php';
 require_once TEMPLATEPATH . '/controllers/Repeater.php';
 # Register Gallery
 require_once TEMPLATEPATH . '/controllers/Gallery.php';
+# Register Image
+require_once TEMPLATEPATH . '/controllers/Image.php';
 # Register Post Type
 require_once TEMPLATEPATH . '/framework/post-types.php';
 # Theme security

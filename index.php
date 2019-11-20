@@ -28,8 +28,12 @@ get_header();
                         the_post();
 
                         $postID = get_the_ID();
+                        ?>
 
-                        displayPost($postID); # Functie din page-utils.php;
+                        <div class="post">
+                            <h6><?php the_title() ?></h6>
+                        </div>
+                    <?php
                     endwhile;
                     ?>
                 </div>
