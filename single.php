@@ -28,7 +28,11 @@ $postID = get_the_ID();
                     while (have_posts()):
                         the_post();
                         $postID = get_the_ID();
-                        displayPost($postID);
+                        ?>
+                        <div class="post">
+                            <h6><?php the_title() ?></h6>
+                        </div>
+                    <?php
                     endwhile;
                     ?>
                 </div>

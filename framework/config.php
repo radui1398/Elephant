@@ -10,8 +10,6 @@ require_once TEMPLATEPATH . '/controllers/Theme.php';
 require_once TEMPLATEPATH . '/controllers/Enqueue.php';
 # Register navigation menus
 require_once TEMPLATEPATH . '/controllers/Menu.php';
-# Register Header
-require_once TEMPLATEPATH . '/controllers/Header.php';
 # Register ACF Controller - INACTIV
 # require_once TEMPLATEPATH . '/controllers/Scorpio.php';
 # Register Repeater

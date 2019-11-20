@@ -1,6 +1,35 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 20.11.2019
+    + Adaugare Controller Image (control pentru imagini ACF/Featured)
+        - Fisiere adaugate:
+            ~ controllers/Image.php
+        - Fisiere editate:
+            ~ framework/config.php
+    + Stergere Controller Header (era prea complicat fara nici un scop)
+        - Fisiere editate:
+            ~ framework/config.php
+            ~ header.php
+        - Fisiere sterse:
+            ~ templates/parts/page-head.php
+            ~ templates/parts/page-header.php
+            ~ controllers/Header.php
+    + Sterge SCSS Default (stilul de scriere/baza de plecare scss difera in functie de dev(
+        - Fisiere sterse:
+            ~ tot din folderul scss
+        - Fisiere editate:
+            ~ style.scss
+    + Stergere parts inutile
+        - Fisiere sterse:
+            ~ parts/blog-post.php
+            ~ parts/single-page-content.php
+        - Fisiere editate:
+            ~ index.php
+            ~ single.php
+            ~ page.php    
+            
+    --- 04.11.2019
     + Adaugare CDN Enqueue - Fisier Editat: controllers/Enqueue.php
     + Adaugare Versiune Enqueue - Fisier Editat: controllers/Enqueue.php
     + Adaugare Debug Mode (Afisare Erori PHP) - Fisier Editat: controllers/Theme.php

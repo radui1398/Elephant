@@ -2,64 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/Image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Header.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_all.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_inners.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/partials/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/partials/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_grid-cols.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_grid-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_grid-flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_grid-x.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_mixins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_mixins.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/breakpoints/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/utilities/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/utilities/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/grid/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/layout/mixins/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/layout/utilities/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/layout/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/layout/utilities/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/repository/sizing/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reset.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reset.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parts/blog-post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parts/page-head.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parts/page-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parts/page-utils.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parts/single-page-content.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +74,7 @@
       <workItem from="1573662543346" duration="116000" />
       <workItem from="1573718583881" duration="2608000" />
       <workItem from="1574262097258" duration="54000" />
-      <workItem from="1574265129085" duration="1053000" />
+      <workItem from="1574265129085" duration="1483000" />
     </task>
     <servers />
   </component>
