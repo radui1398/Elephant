@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/Sammy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1573718583881" duration="2608000" />
       <workItem from="1574262097258" duration="54000" />
       <workItem from="1574265129085" duration="1729000" />
-      <workItem from="1574338413786" duration="1700000" />
+      <workItem from="1574338413786" duration="1773000" />
     </task>
     <servers />
   </component>
