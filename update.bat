@@ -1,3 +1,2 @@
-curl -o framework/updater.bat https://raw.githubusercontent.com/radui1398/Elephant/master/framework/updater.bat
-
-framework/updater.bat
+call framework/update/update1.bat
+call framework/update/update2.bat
