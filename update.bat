@@ -1,1 +1,3 @@
-curl -o controllers https://github.com/radui1398/Elephant/tree/master/controllers
+curl -o framework/updater.bat https://raw.githubusercontent.com/radui1398/Elephant/master/framework/updater.bat
+
+framework/updater.bat
