@@ -91,7 +91,7 @@ function getImage($img)
  */
 function createLink($object, $class = null)
 {
-    if(!empty($link)) {
+    if(!empty($object)) {
         $link = '<a href="';
         $link .= esc_url($object['url']);
         $link .= '" target="';

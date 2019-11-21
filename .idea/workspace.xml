@@ -4,7 +4,7 @@
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Sammy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/aos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
     </list>
@@ -77,7 +77,8 @@
       <workItem from="1574262097258" duration="54000" />
       <workItem from="1574265129085" duration="1729000" />
       <workItem from="1574338413786" duration="3044000" />
-      <workItem from="1574343332350" duration="290000" />
+      <workItem from="1574343332350" duration="1190000" />
+      <workItem from="1574348630777" duration="127000" />
     </task>
     <servers />
   </component>

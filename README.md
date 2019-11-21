@@ -10,6 +10,9 @@
     + Adaugare functie util - _fp() - print rapid acf  
         - Fisiere editate:
             ~ framework/util.php
+    + BUGFIX createLink()
+        - Fisiere editate:
+            ~ framework/util.php
             
     --- 20.11.2019
     + Adaugare Controller Image (control pentru imagini ACF/Featured)
