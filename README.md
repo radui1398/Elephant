@@ -1,6 +1,16 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 21.11.2019
+    + Adaugare Updater (ruleaza prin update.bat)
+        - Fisiere adaugate:
+            ~ update.bat
+            ~ framework/update/update1.bat
+            ~ framework/update/update2.bat
+    + Adaugare functie util - _fp() - print rapid acf  
+        - Fisiere editate:
+            ~ framework/util.php
+            
     --- 20.11.2019
     + Adaugare Controller Image (control pentru imagini ACF/Featured)
         - Fisiere adaugate:

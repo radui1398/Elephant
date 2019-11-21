@@ -223,6 +223,18 @@ function _f($acfFieldName, $acfOptions = false)
     return get_field($acfFieldName);
 }
 
+
+/**
+ * Aceasta functie afiseaza valoarea unui camp acf.
+ *
+ * @param $acfFieldName - ACF Field Name
+ * @param bool $acfOptions - If true then get from acf 'options'
+ * @print acf
+ */
+function _fp($acfFieldName, $acfOptions = false){
+    echo _f($acfFieldName,$acfOptions);
+}
+
 /**
  * Aceasta functie afiseaza breadcrumbs-ul activat din pluginul Yoast.
  * Link Plugin: https://ro.wordpress.org/plugins/wordpress-seo/
