@@ -1,6 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 26.11.2019
+    + Bugfix Enqueue 
+        - Fisiere modificate
+            ~ controllers/Enqueue.php
     --- 21.11.2019
     + Adaugare Updater (ruleaza prin update.bat)
         - Fisiere adaugate:
@@ -513,5 +517,4 @@
 
 
 ## TODO:
-+   Adaugare debug mode
 +   Terminare Scorpio
