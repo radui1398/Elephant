@@ -70,12 +70,12 @@ class Enqueue
             array_push($this->fontFiles, $file);
     }
 
-    public function addJS($file, $header = false, $CDN = false)
+    public function addJS($file, $footer = true, $CDN = false)
     {
         if($CDN)
-            array_push($this->jsCFiles,array($file,$header));
+            array_push($this->jsCFiles,array($file,$footer));
         else
-            array_push($this->jsFiles, array($file, $header));
+            array_push($this->jsFiles, array($file, $footer));
     }
 
     public function addPlugin($plugin, $header = false)
