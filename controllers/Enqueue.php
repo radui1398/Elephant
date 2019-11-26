@@ -129,7 +129,7 @@ class Enqueue
 
 
         # Main JavaScript File
-        wp_register_script('scripts', public_dir() . '/js/script.js', '', $this->cache, true);
+        wp_register_script('scripts', public_dir() . '/js/script.js', '', true, $this->cache);
         wp_enqueue_script('scripts', array('jquery'));
 
         # Loads our main stylesheet.
