@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Repeater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +24,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="radui1398 &lt;48224025+radui1398@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TEuvUeNYpQ2yqlac0ZmZDspFhE" />
@@ -74,8 +87,33 @@
       <workItem from="1574265129085" duration="1729000" />
       <workItem from="1574338413786" duration="3044000" />
       <workItem from="1574343332350" duration="1190000" />
-      <workItem from="1574348630777" duration="254000" />
+      <workItem from="1574348630777" duration="396000" />
+      <workItem from="1574758299277" duration="198000" />
+      <workItem from="1574761254841" duration="712000" />
+      <workItem from="1574763042483" duration="185000" />
     </task>
+    <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
+      <created>1574758451349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574758451349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bugfix Enqueue Version">
+      <created>1574758475496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574758475496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bugfix Enqueue Version">
+      <created>1574761345967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574761345967</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bugfix Enqueue Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfix Enqueue Version" />
   </component>
 </project>

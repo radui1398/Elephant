@@ -78,9 +78,9 @@ class Enqueue
             array_push($this->jsFiles, array($file, $footer));
     }
 
-    public function addPlugin($plugin, $header = false)
+    public function addPlugin($plugin, $footer = true)
     {
-        array_push($this->jsFiles, array($plugin, $header));
+        array_push($this->jsFiles, array($plugin, $footer));
         array_push($this->cssFiles, $plugin);
     }
 
