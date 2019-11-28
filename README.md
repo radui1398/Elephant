@@ -1,6 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 28.11.2019
+    + Adaugare suport image-size pentru Repeater
+        - Fisiere modificate
+            ~ controllers/Repeater.php
     --- 26.11.2019
     + Bugfix Enqueue 
         - Fisiere modificate
@@ -105,6 +109,8 @@
         Afiseaza: Breadcrumbs.
 ### Repeater:
     /**
+     * Class Repeater
+     *
      * Clasa Repeater este utilizata pentru a simplifica folosirea Repeater-ului din ACF.
      * Exemplu:
      * Sa spunem ca am realizat un repeater 'list' ce contine elemente ['item','icon']
@@ -134,11 +140,16 @@
      *      Spre exemplu pentru elementul de 'link' de tip link putem accesa
      *      tip-ul de target prin {{link_group_target}} pentru ca asta va fi automat
      *      transformat in link['target'].
+     * - sizes - {{image_sizes_custom-size}} 
+     *      _sizes_ poate fi folosit pentru size-uri custom
+     *      unde "custom-size" va fi size-ul setat de noi.
      *
      * 4. Dupa $repeater->endLoop() putem adauga cod-ul ce dorim sa apara dupa loop daca repeater-ul are elemente.
      *
      * 5. Pentru a finaliza repeater-ul vom folosi:
      * $repeater->finish()
+     *
+     *
      */
      
 ### Gallery: 

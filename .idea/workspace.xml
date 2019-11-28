@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/Repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Repeater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Theme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +86,8 @@
       <workItem from="1574348630777" duration="396000" />
       <workItem from="1574758299277" duration="198000" />
       <workItem from="1574761254841" duration="712000" />
-      <workItem from="1574763042483" duration="185000" />
+      <workItem from="1574763042483" duration="231000" />
+      <workItem from="1574931114033" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
       <created>1574758451349</created>
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574761345967</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bugfix Enqueue Version">
+      <created>1574763257165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574763257165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

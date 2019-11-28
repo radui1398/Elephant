@@ -32,6 +32,9 @@
  *      Spre exemplu pentru elementul de 'link' de tip link putem accesa
  *      tip-ul de target prin {{link_group_target}} pentru ca asta va fi automat
  *      transformat in link['target'].
+ * - sizes - {{image_sizes_custom-size}}
+ *      _sizes_ poate fi folosit pentru size-uri custom
+ *      unde "custom-size" va fi size-ul setat de noi.
  *
  * 4. Dupa $repeater->endLoop() putem adauga cod-ul ce dorim sa apara dupa loop daca repeater-ul are elemente.
  *
@@ -85,6 +88,10 @@ class Repeater
                     if (($group = str_replace('_group', '', $match[1])) != $match[1]) {
                         $groupElement = explode('_',$group);
                         return ($element[$groupElement[0]][$groupElement[1]]);
+                    }
+                    if(($image = str_replace('_sizes','', $match[1])) != $match[1]){
+                        $imageSize = explode('_', $image);
+                        return ($element[$imageSize[0]]['sizes'][$imageSize[1]]);
                     }
                     return ($element[$match[1]]);
                 }, $loopContent);
