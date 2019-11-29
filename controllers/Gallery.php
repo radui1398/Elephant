@@ -5,10 +5,10 @@
  *
  * Gallery este realizat pe baza de Repeater. Se foloseste exact la fel.
  * Atribute disponibile:
- * _url - url-ul catre imagine
- * _alt - alt-ul imaginii
- * _caption - caption pentru imagine
- * _sizes_custom-size - imaginea pe dimensiunea custom-size
+ * url - url-ul catre imagine
+ * alt - alt-ul imaginii
+ * caption - caption pentru imagine
+ * sizes_custom-size - imaginea pe dimensiunea custom-size
  */
 class Gallery extends Repeater
 {
