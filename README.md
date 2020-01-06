@@ -1,6 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 06.01.2020
+    + Rezolvare BUG Admin Bar 
+        - Fisiere modificate
+            ~ framework/security.php
     --- 28.11.2019
     + Adaugare suport image-size pentru Repeater
         - Fisiere modificate

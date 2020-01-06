@@ -67,33 +67,45 @@ class Repeater
         ob_start();
     }
 
-    public function endLoop()
+    private function match($match, $element, $key)
+    {
+        if (($php = str_replace('php: ', '', $match[1])) != $match[1]) {
+            return eval($php);
+        }
+
+        if (($group = str_replace('_group', '', $match[1])) != $match[1]) {
+            $groupElement = explode('_', $group);
+            if(isset($groupElement[2]))
+                return ($element[$groupElement[0]][$groupElement[1]][$groupElement[2]]);
+            return ($element[$groupElement[0]][$groupElement[1]]);
+        }
+
+        if (($href = str_replace('_url', '', $match[1])) != $match[1]) {
+            return ($element[$href]['url']);
+        }
+        if (($text = str_replace('_title', '', $match[1])) != $match[1]) {
+            return ($element[$text]['title']);
+        }
+        if (($alt = str_replace('_alt', '', $match[1])) != $match[1]) {
+            return ($element[$alt]['alt']);
+        }
+
+        if (($image = str_replace('_sizes', '', $match[1])) != $match[1]) {
+            $imageSize = explode('_', $image);
+            return ($element[$imageSize[0]]['sizes'][$imageSize[1]]);
+        }
+        return ($element[$match[1]]);
+    }
+
+
+    public
+    function endLoop()
     {
         $loopContent = ob_get_clean();
         if (!empty($this->repeater)) {
-            foreach ($this->repeater as $key=>$element) {
-                $string = preg_replace_callback('/{{((?:[^}]|}[^}])+)}}/', function ($match) use ($element,$key) {
-                    if (($php = str_replace('php: ', '', $match[1])) != $match[1]){
-                        return eval($php);
-                    }
-                    if (($href = str_replace('_url', '', $match[1])) != $match[1]) {
-                        return ($element[$href]['url']);
-                    }
-                    if (($text = str_replace('_title', '', $match[1])) != $match[1]) {
-                        return ($element[$text]['title']);
-                    }
-                    if (($alt = str_replace('_alt', '', $match[1])) != $match[1]) {
-                        return ($element[$alt]['alt']);
-                    }
-                    if (($group = str_replace('_group', '', $match[1])) != $match[1]) {
-                        $groupElement = explode('_',$group);
-                        return ($element[$groupElement[0]][$groupElement[1]]);
-                    }
-                    if(($image = str_replace('_sizes','', $match[1])) != $match[1]){
-                        $imageSize = explode('_', $image);
-                        return ($element[$imageSize[0]]['sizes'][$imageSize[1]]);
-                    }
-                    return ($element[$match[1]]);
+            foreach ($this->repeater as $key => $element) {
+                $string = preg_replace_callback('/{{((?:[^}]|}[^}])+)}}/', function ($match) use ($key, $element) {
+                    return $this->match($match, $element, $key);
                 }, $loopContent);
                 $this->content .= $string;
             }
@@ -101,7 +113,8 @@ class Repeater
         ob_start();
     }
 
-    public function finish()
+    public
+    function finish()
     {
         $this->footer = ob_get_clean();
         if (!empty($this->repeater)) {
@@ -114,7 +127,8 @@ class Repeater
     /**
      * @return mixed
      */
-    public function getRepeater()
+    public
+    function getRepeater()
     {
         return $this->repeater;
     }
@@ -123,7 +137,8 @@ class Repeater
      * @void
      * @param $content
      */
-    public function setContent($content)
+    public
+    function setContent($content)
     {
         $this->content = $content;
     }

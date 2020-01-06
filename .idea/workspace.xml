@@ -4,8 +4,10 @@
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/Repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Repeater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/security.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +89,14 @@
       <workItem from="1574758299277" duration="198000" />
       <workItem from="1574761254841" duration="712000" />
       <workItem from="1574763042483" duration="231000" />
-      <workItem from="1574931114033" duration="694000" />
+      <workItem from="1574931114033" duration="1539000" />
+      <workItem from="1575031190435" duration="18000" />
+      <workItem from="1575446991247" duration="223000" />
+      <workItem from="1575883889718" duration="656000" />
+      <workItem from="1576051653211" duration="18000" />
+      <workItem from="1576241575575" duration="1822000" />
+      <workItem from="1576566045901" duration="1710000" />
+      <workItem from="1578302546681" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
       <created>1574758451349</created>

@@ -7,5 +7,6 @@ curl -o controllers/Repeater.php https://raw.githubusercontent.com/radui1398/Ele
 
 curl -o framework/config.php https://raw.githubusercontent.com/radui1398/Elephant/master/framework/config.php
 curl -o framework/util.php https://raw.githubusercontent.com/radui1398/Elephant/master/framework/util.php
+curl -o framework/security.php https://raw.githubusercontent.com/radui1398/Elephant/master/framework/security.php
 
 curl -o README.md https://raw.githubusercontent.com/radui1398/Elephant/master/README.md

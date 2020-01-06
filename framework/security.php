@@ -17,15 +17,6 @@ function remove_x_pingback($headers) {
 }
 add_filter('wp_headers', 'remove_x_pingback');
 
-/**
- * Hide admin bar for non admin users
- */
-global $current_user; 
-get_currentuserinfo();
-if ( ! user_can( $current_user, "manage_options" ) ) {
-	show_admin_bar(false);
-}
-
 # restrict dashboard
 add_action( 'init', 'blockusers_init' );
 function blockusers_init() {

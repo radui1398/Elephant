@@ -28,6 +28,7 @@ $theme->setAutoHomepage(true);
 $theme->setHideAdminBar(false);
 $theme->setTodo(false);
 $theme->setWoocommerce(false);
+$theme->enableDebug();
 //$theme->setSidebar('Article Sidebar');
 //$theme->customThumbnailSize(1400,475,true);
 
