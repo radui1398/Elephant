@@ -2,7 +2,9 @@
 
 ##### $ Updates
     --- 13.01.2020
-    + Testare update.bat
+    + Adaugare Cache Control 
+        - Fisiere modificate
+            ~ framework/update/*
     --- 06.01.2020
     + Rezolvare BUG Admin Bar 
         - Fisiere modificate
