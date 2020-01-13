@@ -1,6 +1,8 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 13.01.2020
+    + Testare update.bat
     --- 06.01.2020
     + Rezolvare BUG Admin Bar 
         - Fisiere modificate
