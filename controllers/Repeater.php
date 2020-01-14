@@ -9,6 +9,8 @@
  *
  * 1.Vom incepe prin a initializa repeater-ul:
  * $repeater = new Repeater('list') sau new Repeater('list', $postID / 1(pentru pagina de optiuni))
+ * -- Daca avem deja repeater-ul incarcat intro variabila
+ * $repeater = new Repeater($array, null, false) - ultima variabila cu valoarea falsa specifica faptul ca Repeater nu va trebui sa incarce singur din ACF
  * Dupa intializare putem scrie orice cod dorim sa apara inainte de loop daca repeater-ul are elemente.
  *
  * 2.Pentru a incepe loop-ul:
@@ -54,12 +56,12 @@ class Repeater
 
     public function __construct($repeater, $option = null, $acf = true)
     {
-        if($acf){
+        if ($acf) {
             if (!$option)
                 $this->repeater = _f($repeater);
             else
                 $this->repeater = _f($repeater, $option);
-        }else{
+        } else {
             $this->repeater = $repeater;
         }
 
@@ -80,7 +82,7 @@ class Repeater
 
         if (($group = str_replace('_group', '', $match[1])) != $match[1]) {
             $groupElement = explode('_', $group);
-            if(isset($groupElement[2]))
+            if (isset($groupElement[2]))
                 return ($element[$groupElement[0]][$groupElement[1]][$groupElement[2]]);
             return ($element[$groupElement[0]][$groupElement[1]]);
         }
