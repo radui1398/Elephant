@@ -1,6 +1,13 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 14.01.2020
+    + Stergere Cache Control
+        - Fisiere modificate 
+            ~ framework/update/*
+    + Adaugare Suport Repeater pentru Group
+        - Fisiere modificate
+            ~ controllers/Repeater.php
     --- 13.01.2020
     + Adaugare Cache Control 
         - Fisiere modificate
