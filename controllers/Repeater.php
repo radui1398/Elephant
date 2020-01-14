@@ -52,12 +52,17 @@ class Repeater
     private $content = '';
     private $key = 0;
 
-    public function __construct($repeater, $option = null)
+    public function __construct($repeater, $option = null, $acf = true)
     {
-        if (!$option)
-            $this->repeater = _f($repeater);
-        else
-            $this->repeater = _f($repeater, $option);
+        if($acf){
+            if (!$option)
+                $this->repeater = _f($repeater);
+            else
+                $this->repeater = _f($repeater, $option);
+        }else{
+            $this->repeater = $repeater;
+        }
+
         ob_start();
     }
 
