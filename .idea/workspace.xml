@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Repeater.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Repeater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,8 @@
       <workItem from="1578908016478" duration="109000" />
       <workItem from="1578908380744" duration="180000" />
       <workItem from="1578908568632" duration="117000" />
-      <workItem from="1578996020430" duration="927000" />
+      <workItem from="1578996020430" duration="976000" />
+      <workItem from="1579515143191" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
       <created>1574758451349</created>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578996367656</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Repeater Update">
+      <created>1578996987224</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578996987224</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +213,7 @@
     <MESSAGE value="Cache Control" />
     <MESSAGE value="Readme Update" />
     <MESSAGE value="Repeater Constructor to support group repeater" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repeater Constructor to support group repeater" />
+    <MESSAGE value="Repeater Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeater Update" />
   </component>
 </project>

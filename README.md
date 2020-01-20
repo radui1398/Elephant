@@ -1,6 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 20.01.2020
+    + Eroare Enqueue Controller (semnalata de Sammy)
+        - Fisiere modificate
+            ~ controllers/Enqueue
     --- 14.01.2020
     + Stergere Cache Control
         - Fisiere modificate 
