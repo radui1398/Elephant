@@ -91,7 +91,7 @@ function getImage($img)
  *
  * @param $page - id/pageObject/string
  * @param $type - string ('id','slug','title')
- * @return link
+ * @return string
  */
 function getPageLink($page = null, $type = 'id')
 {
