@@ -79,6 +79,40 @@ function getImage($img)
     return get_template_directory_uri() . "/assets/images/" . $img;
 }
 
+/**
+ * Aceasta functie returneaza permalink-ul unei pagini.
+ * Exemplu de folosire:
+ *
+ * getPageLink(47) # cu postId
+ * getPageLink($page) # cu obiectul page
+ * getPageLink('map','slug') # in functie de slug
+ * getPageLink('Map', 'title') # in functie de title
+ * getPageLink() # va return home_url()
+ *
+ * @param $page - id/pageObject/string
+ * @param $type - string ('id','slug','title')
+ * @return link
+ */
+function getPageLink($page = null, $type = 'id')
+{
+    $link = home_url();
+
+    switch ($type) {
+        case 'id':
+            $link = get_page_link($page);
+            break;
+        case 'slug':
+            $link = get_permalink(get_page_by_path($page));
+            break;
+        case 'title':
+            $link = get_permalink(get_page_by_title($page));
+            break;
+        default:
+    }
+
+    return $link;
+}
+
 
 /**
  * Aceasta functie primeste ca si parametru un obiect ACF de tip-ul link si returneaza un <a>
@@ -91,7 +125,7 @@ function getImage($img)
  */
 function createLink($object, $class = null)
 {
-    if(!empty($object)) {
+    if (!empty($object)) {
         $link = '<a href="';
         $link .= esc_url($object['url']);
         $link .= '" target="';
@@ -106,8 +140,7 @@ function createLink($object, $class = null)
                 }
             }
         }
-    }
-    else{
+    } else {
         $link = '';
     }
 
@@ -231,8 +264,9 @@ function _f($acfFieldName, $acfOptions = false)
  * @param bool $acfOptions - If true then get from acf 'options'
  * @print acf
  */
-function _fp($acfFieldName, $acfOptions = false){
-    echo _f($acfFieldName,$acfOptions);
+function _fp($acfFieldName, $acfOptions = false)
+{
+    echo _f($acfFieldName, $acfOptions);
 }
 
 /**
@@ -293,30 +327,31 @@ function indexTitle()
  * @param array $args - optiuni paginatie
  * @return string
  */
-function customPagination( $args = array() ) {
+function customPagination($args = array())
+{
     $navigation = '';
 
     // Don't print empty markup if there's only one page.
-    if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
+    if ($GLOBALS['wp_query']->max_num_pages > 1) {
         $args = wp_parse_args(
             $args,
             array(
-                'mid_size'           => 1,
-                'prev_text'          => _x( 'Previous', 'previous set of posts' ),
-                'next_text'          => _x( 'Next', 'next set of posts' ),
+                'mid_size' => 1,
+                'prev_text' => _x('Previous', 'previous set of posts'),
+                'next_text' => _x('Next', 'next set of posts'),
             )
         );
 
         // Make sure we get a string back. Plain is the next best thing.
-        if ( isset( $args['type'] ) && 'array' == $args['type'] ) {
+        if (isset($args['type']) && 'array' == $args['type']) {
             $args['type'] = 'plain';
         }
 
         // Set up paginated links.
-        $links = paginate_links( $args );
+        $links = paginate_links($args);
 
-        if ( $links ) {
-            $navigation = _navigation_markup( $links, 'pagination', '' );
+        if ($links) {
+            $navigation = _navigation_markup($links, 'pagination', '');
         }
     }
 

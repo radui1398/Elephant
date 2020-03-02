@@ -1,10 +1,14 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 02.03.2020
+    + Adaugare functie de getPageLink
+        - Fisiere modificate
+            ~ framework/util.php
     --- 20.01.2020
     + Eroare Enqueue Controller (semnalata de Sammy)
         - Fisiere modificate
-            ~ controllers/Enqueue
+            ~ controllers/Enqueue.php
     --- 14.01.2020
     + Stergere Cache Control
         - Fisiere modificate 
@@ -180,7 +184,7 @@
      * url - url-ul catre imagine
      * alt - alt-ul imaginii
      * caption - caption pentru imagine
-     * sizes_custom-size - imaginea pe dimensiunea custom-size
+     * custom-size - imaginea pe dimensiunea custom-size
      */
      
 ### Generare Meniu:
@@ -318,6 +322,39 @@
         return get_template_directory_uri() . "/assets/images/" . $img;
     }
     
+    /**
+     * Aceasta functie returneaza permalink-ul unei pagini.
+     * Exemplu de folosire:
+     *
+     * getPageLink(47) # cu postId
+     * getPageLink($page) # cu obiectul page
+     * getPageLink('map','slug') # in functie de slug
+     * getPageLink('Map', 'title') # in functie de title
+     * getPageLink() # va return home_url()
+     *
+     * @param $page - id/pageObject/string
+     * @param $type - string ('id','slug','title')
+     * @return link
+     */
+    function getPageLink($page = null, $type = 'id')
+    {
+        $link = home_url();
+    
+        switch ($type) {
+            case 'id':
+                $link = get_page_link($page);
+                break;
+            case 'slug':
+                $link = get_permalink(get_page_by_path($page));
+                break;
+            case 'title':
+                $link = get_permalink(get_page_by_title($page));
+                break;
+            default:
+        }
+    
+        return $link;
+    }
     
     /**
      * Aceasta functie primeste ca si parametru un obiect ACF de tip-ul link si returneaza un <a>

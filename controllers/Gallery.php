@@ -8,7 +8,7 @@
  * url - url-ul catre imagine
  * alt - alt-ul imaginii
  * caption - caption pentru imagine
- * sizes_custom-size - imaginea pe dimensiunea custom-size
+ * custom-size - imaginea pe dimensiunea custom-size
  */
 class Gallery extends Repeater
 {

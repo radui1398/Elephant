@@ -4,7 +4,8 @@
     <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Enqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +100,9 @@
       <workItem from="1578908568632" duration="117000" />
       <workItem from="1578996020430" duration="976000" />
       <workItem from="1579515143191" duration="679000" />
+      <workItem from="1579698014334" duration="123000" />
+      <workItem from="1579706116292" duration="8000" />
+      <workItem from="1583138463483" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
       <created>1574758451349</created>
