@@ -5,6 +5,11 @@
     + Adaugare functie de getPageLink
         - Fisiere modificate
             ~ framework/util.php
+    + Adaugare fisier pentru custom wp functions
+        - Fisiere modificate
+            ~ framework/config.php
+        - Fisiere adaugate
+            ~ custom-functions.php
     --- 20.01.2020
     + Eroare Enqueue Controller (semnalata de Sammy)
         - Fisiere modificate

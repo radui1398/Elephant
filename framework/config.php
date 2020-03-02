@@ -28,6 +28,8 @@ require_once TEMPLATEPATH . '/framework/util.php';
 require_once TEMPLATEPATH . '/framework/shortcodes.php';
 # Widgets
 require_once TEMPLATEPATH . '/framework/widgets.php';
+# Custom Functions for Dev
+require_once TEMPLATEPATH . '/custom-functions.php';
 
 
 

@@ -9,4 +9,8 @@ curl -o framework/config.php https://raw.githubusercontent.com/radui1398/Elephan
 curl -o framework/util.php https://raw.githubusercontent.com/radui1398/Elephant/master/framework/util.php
 curl -o framework/security.php https://raw.githubusercontent.com/radui1398/Elephant/master/framework/security.php
 
+IF NOT EXIST custom-functions.php (
+    curl -o custom-functions.php https://raw.githubusercontent.com/radui1398/Elephant/master/custom-functions.php
+)
+
 curl -o README.md https://raw.githubusercontent.com/radui1398/Elephant/master/README.md

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/framework/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/util.php" afterDir="false" />
+    <list default="true" id="fc6e3fb3-ee4a-4f05-9093-7b8430214683" name="Default Changelist" comment="Adaugare getPageLink">
+      <change afterPath="$PROJECT_DIR$/custom-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/update/update2.bat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/update/update2.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,8 @@
       <workItem from="1579515143191" duration="679000" />
       <workItem from="1579698014334" duration="123000" />
       <workItem from="1579706116292" duration="8000" />
-      <workItem from="1583138463483" duration="764000" />
+      <workItem from="1583138463483" duration="786000" />
+      <workItem from="1583139912370" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfix Enqueue Version">
       <created>1574758451349</created>
@@ -192,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583139138070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adaugare getPageLink">
+      <created>1583139242366</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583139242366</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
