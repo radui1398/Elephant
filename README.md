@@ -1,6 +1,10 @@
 # Elephant - Un framework nu chiar atat de mare
 
 ##### $ Updates
+    --- 18.03.2020
+    + Adaugare functie limitare String
+        - Fisiere modificate
+            ~ framework/util.php
     --- 02.03.2020
     + Adaugare functie de getPageLink
         - Fisiere modificate
@@ -250,6 +254,25 @@
     /**
      * Aici sunt prezente toate functiile descrise in readme
      */
+    
+    
+    
+    /**
+     * Aceasta functie este folositoare pentru string-urile mai mari de o anumita lungime.
+     * Functie folositoare pe front-end, va adauga "..." la sfarsitul limitarii.
+     * 
+     * @param $string
+     * @param int $length
+     * @return string
+     */
+    function stringLimiter($string, $length = 50){
+    
+        if(strlen($string) > $length){
+            return substr($string, 0, 47) . '...';
+        }
+    
+        return $string;
+    }
     
     /**
      * Aceasta functie curata un numar de telefon pentru a putea fi utilizat in href.

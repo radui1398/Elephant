@@ -4,6 +4,24 @@
  */
 
 /**
+ * Aceasta functie este folositoare pentru string-urile mai mari de o anumita lungime.
+ * Functie folositoare pe front-end, va adauga "..." la sfarsitul limitarii.
+ *
+ * @param $string
+ * @param int $length
+ * @return string
+ */
+function stringLimiter($string, $length = 50){
+
+    if(strlen($string) > $length){
+        return substr($string, 0, 47) . '...';
+    }
+
+    return $string;
+}
+
+
+/**
  * Aceasta functie curata un numar de telefon pentru a putea fi utilizat in href.
  * Ex: 0760.234.234 -> 0760234234
  *
